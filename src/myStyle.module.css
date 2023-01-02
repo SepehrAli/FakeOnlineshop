@@ -1,0 +1,237 @@
+/* header styles */
+.header {
+   width: 100%;
+  height: 60px;
+  background-color: #2DB8A7;
+  position:fixed;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 2px;
+z-index: 3;
+border-bottom: 3px solid black;
+}
+
+
+.right {
+   float: right;
+ width: 40px;
+ margin-right: 1%;
+ }
+ .left{
+   float: left;
+   margin-left: 1%;
+
+ }
+
+ .title{
+  background: black;
+position: absolute;
+left: 37%;
+width: 40%;
+display: flex;
+justify-content: center;
+border-radius: 35px;
+height: 45px;
+align-items: center;
+ }
+ .title h2{
+  color: white;
+ }
+ .dropdown {
+   display: inline-block;
+   position: relative;
+   }
+   .dropdown {
+      display:none ;
+      position: absolute;
+      min-width: 60px;
+   }
+
+.left img {
+  float: left;
+  width: 30px;
+}
+.right img {
+  width: 40px;
+}
+
+
+
+.left:hover{
+cursor: pointer;
+}
+.right:hover{
+   background-color: #fff;
+cursor: pointer;
+}
+
+.left:hover .dropdown{
+ display: inline-flex;
+   z-index: 2;
+flex-direction: column;
+
+background-color: rgb(17, 17, 17);
+padding: 10px;
+border-radius: 25px;
+padding-top:23px ;
+padding-bottom:23px ;
+padding-left: 15px;
+}
+
+.dropdown span {
+   color: #fff;
+}
+.outlink{
+  text-decoration: none;
+  color: #fff;
+  padding: 4px;
+  border-radius: 15px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/* login page */
+.login{
+  width: 45%;
+  height: 250px;
+  background-color:#2DB8A7 ;
+text-align: center;
+border-radius: 35px;
+position: relative;
+left: 7%;
+
+}
+.login input{
+position: relative;
+top: 20%;
+left: 10%;
+margin-top:6px ;
+border-radius: 20px;
+display: block;
+width: 80%;
+}
+.login span{
+  position: relative;
+  top: 20%;
+  right: 30%;
+}
+.login button{
+  position: relative;
+  top: 20%;
+  box-shadow: 0px 4px 4px 13px rgba(42, 66, 64, 0.25);
+border-radius: 44px;
+}
+.loginPage{
+ 
+  position: relative;
+  left:30%;
+  padding-top: 100px;
+ 
+}
+.login button {
+  background-color: black;
+  margin-top: 30px;
+}
+
+.linkLogin{
+  text-decoration: none;
+  color: white;
+} 
+
+/* all products  */
+
+
+
+.allItems img {
+  width: 90px;
+  padding-top: 10px;
+  border-radius: 25px;
+  padding: 2px;
+  }
+
+ .allItemPage{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 60px;
+ 
+}
+.allItems{
+  width: 80%;
+  height: 250px;
+border-radius: 25px;
+border-color: black;
+padding-bottom: 50px;
+background-color: #2DB8A7;
+color: white;
+padding-left: 10px;
+}
+
+/* category */
+.categoryTitle {
+  z-index:1;
+background-color: black;
+margin-right: 10px;
+position: fixed;
+color: #ffffff;
+border-radius: 25px;
+width: 21.5%
+
+
+}
+.categoryOptions {
+  list-style-type: none;
+  
+  font-weight: 300;
+  width: 20%;
+  z-index: 2;
+height: 200px;
+  background-color: black;
+margin-right: 10px;
+position: fixed;
+border-bottom-right-radius: 50px;
+color: #2DB8A7;
+padding: 3px;
+margin-top: 50px;
+font-size: 20px;
+}
+.category {
+  margin-top: 80px;
+  width: 100px;
+}
+ .category button {
+  padding-top: 8px;
+  background-color:aqua;
+  font-weight: 200;
+  border-radius: 29px;
+  margin-top: 7px;
+}
+.categoryOptions button:hover{
+  cursor: pointer;
+}
+
+/* Feed page */
+.feed{
+ 
+  display: grid;
+  grid-template-columns: 25% 85%;
+}
+
+/*   Loading   */
+.loadingPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/* Item Product */
+.ItemImage{
+  width: 45%;
+  
+}
+.ItemTitle{
+  color: #26645d;
+}
+.productItem{
+  position: absolute;
+  top: 100px;
+}
